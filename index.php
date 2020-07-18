@@ -54,8 +54,8 @@
 											    <li class=\"list-group-item\">".$row["media_type"]. "</li>
 											    <li class=\"list-group-item font-weight-bold\">".$row["availability"]. "</li>
 											 </ul>
-		    								<a href='update.php?id=".$row["id"]." ' class=\"btn btn-info stretched-link\">Edit</a>
-		    								<a href='delete.php?id=".$row["id"]." ' class=\"btn btn-danger stretched-link\">Delete</a>
+		    								<a href='update.php?id=".$row["id"]." ' class=\"btn btn-info\">Edit</a>
+		    								<a href='delete.php?id=".$row["id"]." ' class=\"btn btn-danger\">Delete</a>
 		  								</div>
 		  								
 									</div>
